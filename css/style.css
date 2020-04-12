@@ -1,0 +1,50 @@
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper_box
+{
+	border: 5px solid black;
+	min-height: 300px;
+	width:80%;
+	margin:0 auto;
+	overflow:hidden;
+	position:relative;
+
+}
+.box
+{
+width: 100px;
+height: 100px;
+position:absolute;
+}
+.box1{
+background-color: red;
+top :0;
+left:0;
+z-index: 1;
+
+}
+.box2{
+background-color: green;
+top:0;
+right:0;	
+}
+.box3{
+background-color: yellow;
+left:0;
+right:0;
+margin:100px auto;	
+}
+.box4{
+background-color:black;
+bottom:0;
+left:0;	
+}
+.box5{
+background-color: blue;	
+bottom:0;
+right:0;
+}
